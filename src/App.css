@@ -13,5 +13,8 @@
 
 .active {
   color: red;
-  /* font-weight: bold; */
+}
+main {
+  display: flex;
+  justify-content: end;
 }
