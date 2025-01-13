@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import { useParams, useNavigate, Link, Outlet } from "react-router-dom";
 import servise from "../../servise/servise";
 import styles from "./MovieDetailsPage.module.css";
-import MovieCast from "../../component/MovieCast/MovieCast";
 
 const MovieDetailsPage = () => {
   const { movieId } = useParams();
